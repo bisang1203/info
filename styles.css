@@ -68,6 +68,13 @@ section {
 	max-width: 40rem;
 	margin: 0 auto;
 }
+section ul, section ol {
+	margin: 0 0 1rem;
+	padding-left: 1rem;
+}
+section li > ul {
+	margin: .2rem 0 .5rem;
+}
 article {
 	margin: 1rem 0;
 	padding: .5rem 1rem;
