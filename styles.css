@@ -29,29 +29,47 @@ body {
 }
 header, footer {
 	padding: 1rem;
-	text-align: center;
 }
 header {
+	position: relative;
 	margin-bottom: 2rem;
 	background-color: darkblue;
 	color: #FFF;
 }
-header img {
-	display: block;
-	margin: 0 auto;
-	width: 120px;
-}
-section {
+header h1 {
 	max-width: 40rem;
 	margin: 0 auto;
 }
-h3 a {
+header img {
+	display: block;
+	width: 120px;
+	vertical-align: middle;
+}
+.links {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.links li {
+	display: inline-block;
+}
+.links a {
 	padding: 10px;
 	border: 1px solid #33F;
 	border-radius: 8px;
 	background-color: #33F;
 	color: #FFF;
 	text-decoration: none;
+}
+section {
+	max-width: 40rem;
+	margin: 0 auto;
+}
+article {
+	margin: 1rem 0;
+	padding: .5rem 1rem;
+	border: 1px solid #333;
+	border-radius: 20px;
 }
 a.btn {
 	padding: 4px;
@@ -63,9 +81,10 @@ a.btn {
 }
 
 footer {
+	margin-top: 2rem;
+	text-align: center;
 	background-color: #333;
 	color: #FFF;
-	margin-top: 2rem;
 }
 footer img {
 	width: 240px;
