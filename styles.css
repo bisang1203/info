@@ -30,6 +30,10 @@ body {
 header, footer {
 	padding: 1rem;
 }
+header a,footer a {
+	color: #FFF;
+}
+
 header {
 	position: relative;
 	margin-bottom: 2rem;
